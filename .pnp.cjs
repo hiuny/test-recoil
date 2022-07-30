@@ -36,9 +36,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/jest-dom", "npm:5.16.4"],\
             ["@testing-library/react", "virtual:2b1e72dfd6111e8731bbd7d2a880fedac62de617056446e401920cd44340ff1c0dbe86bd26115d6687437ccf614efd80cb2043e66e99ba5838e40e33aec34ba0#npm:13.3.0"],\
             ["@testing-library/user-event", "virtual:2b1e72dfd6111e8731bbd7d2a880fedac62de617056446e401920cd44340ff1c0dbe86bd26115d6687437ccf614efd80cb2043e66e99ba5838e40e33aec34ba0#npm:13.5.0"],\
+            ["eslint-config-react-app", "virtual:2b1e72dfd6111e8731bbd7d2a880fedac62de617056446e401920cd44340ff1c0dbe86bd26115d6687437ccf614efd80cb2043e66e99ba5838e40e33aec34ba0#npm:6.0.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:2b1e72dfd6111e8731bbd7d2a880fedac62de617056446e401920cd44340ff1c0dbe86bd26115d6687437ccf614efd80cb2043e66e99ba5838e40e33aec34ba0#npm:18.2.0"],\
             ["react-scripts", "virtual:2b1e72dfd6111e8731bbd7d2a880fedac62de617056446e401920cd44340ff1c0dbe86bd26115d6687437ccf614efd80cb2043e66e99ba5838e40e33aec34ba0#npm:5.0.1"],\
+            ["recoil", "virtual:2b1e72dfd6111e8731bbd7d2a880fedac62de617056446e401920cd44340ff1c0dbe86bd26115d6687437ccf614efd80cb2043e66e99ba5838e40e33aec34ba0#npm:0.7.4"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
           "linkType": "SOFT"\
@@ -7858,12 +7860,77 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["eslint-config-react-app", [\
+        ["npm:6.0.0", {\
+          "packageLocation": "./.yarn/cache/eslint-config-react-app-npm-6.0.0-c5908e735c-b265852455.zip/node_modules/eslint-config-react-app/",\
+          "packageDependencies": [\
+            ["eslint-config-react-app", "npm:6.0.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
         ["npm:7.0.1", {\
           "packageLocation": "./.yarn/cache/eslint-config-react-app-npm-7.0.1-78bab43841-a67e082180.zip/node_modules/eslint-config-react-app/",\
           "packageDependencies": [\
             ["eslint-config-react-app", "npm:7.0.1"]\
           ],\
           "linkType": "SOFT"\
+        }],\
+        ["virtual:2b1e72dfd6111e8731bbd7d2a880fedac62de617056446e401920cd44340ff1c0dbe86bd26115d6687437ccf614efd80cb2043e66e99ba5838e40e33aec34ba0#npm:6.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/eslint-config-react-app-virtual-e571974570/0/cache/eslint-config-react-app-npm-6.0.0-c5908e735c-b265852455.zip/node_modules/eslint-config-react-app/",\
+          "packageDependencies": [\
+            ["eslint-config-react-app", "virtual:2b1e72dfd6111e8731bbd7d2a880fedac62de617056446e401920cd44340ff1c0dbe86bd26115d6687437ccf614efd80cb2043e66e99ba5838e40e33aec34ba0#npm:6.0.0"],\
+            ["@types/babel-eslint", null],\
+            ["@types/eslint", null],\
+            ["@types/eslint-plugin-flowtype", null],\
+            ["@types/eslint-plugin-import", null],\
+            ["@types/eslint-plugin-jest", null],\
+            ["@types/eslint-plugin-jsx-a11y", null],\
+            ["@types/eslint-plugin-react", null],\
+            ["@types/eslint-plugin-react-hooks", null],\
+            ["@types/eslint-plugin-testing-library", null],\
+            ["@types/typescript", null],\
+            ["@types/typescript-eslint__eslint-plugin", null],\
+            ["@types/typescript-eslint__parser", null],\
+            ["@typescript-eslint/eslint-plugin", null],\
+            ["@typescript-eslint/parser", null],\
+            ["babel-eslint", null],\
+            ["confusing-browser-globals", "npm:1.0.11"],\
+            ["eslint", null],\
+            ["eslint-plugin-flowtype", null],\
+            ["eslint-plugin-import", null],\
+            ["eslint-plugin-jest", null],\
+            ["eslint-plugin-jsx-a11y", null],\
+            ["eslint-plugin-react", null],\
+            ["eslint-plugin-react-hooks", null],\
+            ["eslint-plugin-testing-library", null],\
+            ["typescript", null]\
+          ],\
+          "packagePeers": [\
+            "@types/babel-eslint",\
+            "@types/eslint-plugin-flowtype",\
+            "@types/eslint-plugin-import",\
+            "@types/eslint-plugin-jest",\
+            "@types/eslint-plugin-jsx-a11y",\
+            "@types/eslint-plugin-react-hooks",\
+            "@types/eslint-plugin-react",\
+            "@types/eslint-plugin-testing-library",\
+            "@types/eslint",\
+            "@types/typescript-eslint__eslint-plugin",\
+            "@types/typescript-eslint__parser",\
+            "@types/typescript",\
+            "@typescript-eslint/eslint-plugin",\
+            "@typescript-eslint/parser",\
+            "babel-eslint",\
+            "eslint-plugin-flowtype",\
+            "eslint-plugin-import",\
+            "eslint-plugin-jest",\
+            "eslint-plugin-jsx-a11y",\
+            "eslint-plugin-react-hooks",\
+            "eslint-plugin-react",\
+            "eslint-plugin-testing-library",\
+            "eslint",\
+            "typescript"\
+          ],\
+          "linkType": "HARD"\
         }],\
         ["virtual:2faadc2c8066bdf87a59ff9756d6cd409c545645cf8acfe282e91e9f4e9523cbc54b8382476a003cc756cea48f7fd9cf147d04ea26d278c8cc1eb367b56a9ac1#npm:7.0.1", {\
           "packageLocation": "./.yarn/__virtual__/eslint-config-react-app-virtual-32c2ac8a7e/0/cache/eslint-config-react-app-npm-7.0.1-78bab43841-a67e082180.zip/node_modules/eslint-config-react-app/",\
@@ -9067,6 +9134,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["gzip-size", "npm:6.0.0"],\
             ["duplexer", "npm:0.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["hamt_plus", [\
+        ["npm:1.0.2", {\
+          "packageLocation": "./.yarn/cache/hamt_plus-npm-1.0.2-67a52ee1df-af26ea32db.zip/node_modules/hamt_plus/",\
+          "packageDependencies": [\
+            ["hamt_plus", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -14324,6 +14400,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["recoil", [\
+        ["npm:0.7.4", {\
+          "packageLocation": "./.yarn/cache/recoil-npm-0.7.4-b94d932c07-797b97ee74.zip/node_modules/recoil/",\
+          "packageDependencies": [\
+            ["recoil", "npm:0.7.4"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:2b1e72dfd6111e8731bbd7d2a880fedac62de617056446e401920cd44340ff1c0dbe86bd26115d6687437ccf614efd80cb2043e66e99ba5838e40e33aec34ba0#npm:0.7.4", {\
+          "packageLocation": "./.yarn/__virtual__/recoil-virtual-8f98303ed4/0/cache/recoil-npm-0.7.4-b94d932c07-797b97ee74.zip/node_modules/recoil/",\
+          "packageDependencies": [\
+            ["recoil", "virtual:2b1e72dfd6111e8731bbd7d2a880fedac62de617056446e401920cd44340ff1c0dbe86bd26115d6687437ccf614efd80cb2043e66e99ba5838e40e33aec34ba0#npm:0.7.4"],\
+            ["@types/react", null],\
+            ["@types/react-dom", null],\
+            ["@types/react-native", null],\
+            ["hamt_plus", "npm:1.0.2"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:2b1e72dfd6111e8731bbd7d2a880fedac62de617056446e401920cd44340ff1c0dbe86bd26115d6687437ccf614efd80cb2043e66e99ba5838e40e33aec34ba0#npm:18.2.0"],\
+            ["react-native", null]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react-native",\
+            "@types/react",\
+            "react-dom",\
+            "react-native",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["recursive-readdir", [\
         ["npm:2.2.2", {\
           "packageLocation": "./.yarn/cache/recursive-readdir-npm-2.2.2-7e64fe65fc-a6b22994d7.zip/node_modules/recursive-readdir/",\
@@ -15765,9 +15872,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/jest-dom", "npm:5.16.4"],\
             ["@testing-library/react", "virtual:2b1e72dfd6111e8731bbd7d2a880fedac62de617056446e401920cd44340ff1c0dbe86bd26115d6687437ccf614efd80cb2043e66e99ba5838e40e33aec34ba0#npm:13.3.0"],\
             ["@testing-library/user-event", "virtual:2b1e72dfd6111e8731bbd7d2a880fedac62de617056446e401920cd44340ff1c0dbe86bd26115d6687437ccf614efd80cb2043e66e99ba5838e40e33aec34ba0#npm:13.5.0"],\
+            ["eslint-config-react-app", "virtual:2b1e72dfd6111e8731bbd7d2a880fedac62de617056446e401920cd44340ff1c0dbe86bd26115d6687437ccf614efd80cb2043e66e99ba5838e40e33aec34ba0#npm:6.0.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:2b1e72dfd6111e8731bbd7d2a880fedac62de617056446e401920cd44340ff1c0dbe86bd26115d6687437ccf614efd80cb2043e66e99ba5838e40e33aec34ba0#npm:18.2.0"],\
             ["react-scripts", "virtual:2b1e72dfd6111e8731bbd7d2a880fedac62de617056446e401920cd44340ff1c0dbe86bd26115d6687437ccf614efd80cb2043e66e99ba5838e40e33aec34ba0#npm:5.0.1"],\
+            ["recoil", "virtual:2b1e72dfd6111e8731bbd7d2a880fedac62de617056446e401920cd44340ff1c0dbe86bd26115d6687437ccf614efd80cb2043e66e99ba5838e40e33aec34ba0#npm:0.7.4"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
           "linkType": "SOFT"\
